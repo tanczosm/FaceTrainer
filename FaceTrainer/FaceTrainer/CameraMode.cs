@@ -23,8 +23,8 @@ namespace FaceTrainer
             /* initialize the camera object */
             capture = new Capture();
 
-            capture.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameWidth, 1280);
-            capture.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameHeight, 720);
+            capture.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameWidth, 640);
+            capture.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameHeight, 480);
 
             /* create a new timer */
             timer = new DispatcherTimer();

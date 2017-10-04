@@ -33,7 +33,7 @@ namespace FaceTrainer
         private Stopwatch watch;
 
         private int msPerEmoji = 2000;
-        private int msBetweenSaves = 666;
+        private int msBetweenSaves = 333;
         private bool saveReady = false;
         private long lastElapsedMs = 0;
         private int saveImageNumber = 0;
